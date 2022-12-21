@@ -1,0 +1,72 @@
+first is HTML file 
+    in there were gonna need a box with the game in it
+    make a scetch of what we want it to look 
+
+then 
+user hits play is where our JS begins 
+
+ 
+
+
+--
+two players
+playerOne is user
+playerTwo is computer
+    these are gonna be var's 
+
+
+give the computer an array of R, S, 
+    an array
+
+Rules 
+    scissor beats paper
+    paper beats rock
+    rock beats scissor
+
+
+User and is presented with a box that they fill in thier choise of R, P, or S
+    prompt(Please choose R, P, or S)
+
+playerTwo also chooses from R, p, S
+    random(array)
+
+user gets notified of computer choice 
+    alert()
+     
+
+want to compare selections and run it through the Rules
+
+        if user chooses scissor and computer chooses rock then computer wins 
+
+         if user chooses scissor and computer chooses scissor then tie
+
+          if user chooses scissor and computer chooses paper then user wins 
+
+
+         if user chooses rock and computer chooses rock then  tie 
+
+          if user chooses rock and computer chooses paper then computer wins 
+        
+        if user chooses rock and computer chooses scissor then user wins 
+
+
+         if user chooses paper and computer chooses paper then tie
+
+        if user chooses paper and computer chooses rock then user wins 
+
+        if user chooses paper and computer chooses scissor then computer wins
+
+
+then user gets told weather they won or lost or tied
+    alert()
+
+
+then user get shown stats 
+    alert() - empty object that get property values updated each time a round of the game has finished
+
+then user gets asked if they want to play again
+    confirm()
+        if user says play again they get back to the promt() where they enter their selction 
+
+        if user says no then game ends
+            alert(game over!!!)
