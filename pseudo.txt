@@ -1,40 +1,50 @@
-first is HTML file 
-    in there were gonna need a box with the game in it
-    make a scetch of what we want it to look 
 
-then 
-user hits play is where our JS begins 
+# Unit 03 Mini-Project: Rock, Paper, Scissors
 
- 
+In this activity, you will work with a pair to build a game using only JavaScript.
+
+## Instructions
+
+The completed application should meet the following criteria:
+
+* As a user, I want to play Rock, Paper, Scissors against an automated opponent.
+
+* As a user, I can enter R, P, or S to signify my choice of rock, paper, or scissors.
+
+* As a user, I expect the computer to choose R, P, or S in return.
+
+* As a user, I want the option to play again whether I win or lose.
+
+* As a user, I want to see my total wins, ties, and losses after each round.
+
+### Specifications
+
+* Must use the `alert()`, `confirm()`, and `prompt()` methods to collect user input and display information to the user.
+
+* The computer's selection must be random to ensure a fair game.
 
 
---
-two players
-playerOne is user
-playerTwo is computer
-    these are gonna be var's 
+---
+on load you will be presented with a prompt to enter their choice of RSP
 
+event listener for the click of the button
+  - user clicks enter then computer generates a random choice or RSP
+  - user clicks cancel and the pop up stop
 
-give the computer an array of R, S, 
-    an array
+give the computer an array of R, S, P
+    -use math random to have the computer pick from RSP
 
 Rules 
     scissor beats paper
     paper beats rock
     rock beats scissor
 
+create a variable for the computer choice 
 
-User and is presented with a box that they fill in thier choise of R, P, or S
-    prompt(Please choose R, P, or S)
+crate a win/loose variable
+  
 
-playerTwo also chooses from R, p, S
-    random(array)
-
-user gets notified of computer choice 
-    alert()
-     
-
-want to compare selections and run it through the Rules
+Compare selections and run it through the Rules
 
         if user chooses scissor and computer chooses rock then computer wins 
 
@@ -66,7 +76,8 @@ then user get shown stats
 
 then user gets asked if they want to play again
     confirm()
-        if user says play again they get back to the promt() where they enter their selction 
+        if user says play again they get back to the prompt() where they enter their selection 
 
         if user says no then game ends
             alert(game over!!!)
+            and clear count
